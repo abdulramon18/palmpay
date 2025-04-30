@@ -6,10 +6,11 @@
 }
 nav{
 	display: flex;
-	justify-content: center;
-	bottom: 60px;
+	justify-content:space-between;
 	box-shadow: inset;
 	text-shadow: whitesmoke;
+	margin-right: 15%;
+	margin-left: 15%;
 }
 .ul{
 	display: flex;
@@ -19,9 +20,10 @@ nav{
 }
 .ul input{
 	border-radius: 8px;
-	background-color: aliceblue;
+	background-color: rgb(249, 249, 249);
 	margin: 10px;
-	height: 20px;
+	height: 40px;
+
 }
 .sayNomore{
 	margin-top: 200px;
@@ -31,10 +33,7 @@ nav{
 }
 .sayNomore img{
 	padding-top: 40px;
-	
 	width: 1000px;
-	
-	
 	text-align: center;
 }
 .sayNomore p{
@@ -47,26 +46,23 @@ nav{
 	text-align: center;
 	margin-bottom: 30px;
 	margin-bottom: 400px;
-
 }
 .moreMoney{
 	background-color: black;
-
 	color: whitesmoke;
 	text-align: center;
-
 }
 .makefi{
 	position: relative;
 	bottom: 300px;
-	
 	align-items: center;
 }
 .more{
-	margin-top: 250px;
+	margin-top:10%;
 }
 .more1{
-	margin-top: 250px;
+	margin-top: 10%;
+	
 
 }
 .main{
@@ -74,13 +70,10 @@ nav{
 	
 }
 .first{
-	/* padding: 20px; */
 	margin-left: 260px;
-
 	width: 1200px;
 	height: 70vh;
 	background-color: rgba(251, 251, 251, 0.96);
-	/* border: 2px solid red; */
 	margin-top: 200px;
 	margin-bottom: 200px;
 	display: flex;
@@ -92,14 +85,13 @@ nav{
 }
 .text{
 	
-	padding: 15px;
+	padding: 55px;
 }
 .second{
 	width: 1200px;
 	height: 70vh;
 	background-color: rgb(249, 249, 249);
 	margin-left: 260px;
-	/* border: 2px solid green; */
 	margin-bottom: 200px;
 	display: flex;
 	border-radius: 14px;
@@ -117,18 +109,21 @@ button{
 	border-radius: 15px;
 }
 .color{
-	/* margin-top: 10px; */
+
 	background-image: url(../image/col.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 	display: flex;
 	column-gap: 50px;
 	justify-content: center;
+	height: 100px;
+	align-items: center;
 }
 
 .footer{
 	color: aliceblue;
 	background-color: black;
 	justify-content: center;
-	/* margin-top: 70px; */
 	display: flex;
 	column-gap: 70px;
 	row-gap: 30px;
@@ -139,26 +134,23 @@ button{
 }
 ul{
 	list-style-type: none;
+	white-space: pre-line;
 }
 b{
 	font-size: 30px;
 }
-
 .fa-brands{
 	font-size: 24px;  
 	color: #3498db;   
 	margin-right: 8px; 
 	vertical-align: middle; 
 }
-
 .footer2{
 	background-color: black;
-	color: aliceblue;
-
+	color: aliceblue; 
 }
-
 .col{
 	padding: 60px;
-	padding-left: 300px;
-	padding-right: 300px;
+	padding-left: 15%;
+	padding-right: 15%;
 }
